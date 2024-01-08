@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+	<title>Primera pagina web HTML</title>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="pan,harina,leche">
+	<meta name="description" content="Página de Mateo sobre el curso de HTML/CSS/JAVASCRIPT/PHP/PHYTON/SQL Y MUCHOS MÁS">
+	<meta name="author" content="Mateo Robles">
+	<meta name="copyright" content="JEMAF Inc.">
+	<meta name="robots" content="noindex">
+
+	<link rel="icon" href="lezzeppelin.ico">
+
+</head>
+
+<body>
+
+<div>
+	<header>
+		<nav>
+			<ul>
+				<li> <a href="../index.html">Inicio y Todo</a> </li>
+				<li> <a href="intruduccionhtml.html">Intruducción Al HTML</a> </li>
+				<li> <a href="enlacemultimediadiv.html">Funcionamiento Del Multimedia</a> </li>
+				<li> <a href="formulariosmetadatos.html">Creación de Formularios y Metadatos</a> </li>
+				<li> <a href="htmlsemanticoynav.html">Definición Semantica del HTML</a> </li>	
+			</ul>
+		</nav>
+	</header>
+</div>
+
+<div>
+    <h1>Titulo Hola Mundo</h1>
+
+    <h2><u>Subtitulo Hola Mundo y su comienzo Al (HTML)</u></h2>
+
+            <p> 
+	            <i>Primera pagina Web de muchas</i>... pero lo mas importante es tener nuevos <b>conocimientos</b> cada dia <b>"todos los dias se aprende algo nuevo"</b>frase de pepa. <br>
+	            Asi que bueno si queres aprender mas cosas.<a href="https://www.dolarito.ar" target="_BLANK">click aqui</a> ,muchas gracias por ver.  
+            </p>
+
+</div>
+
+<div>
+	header.header>nav.header-nav>ul.header>li.list-item*4>a.link{Link $}
+
+	<article>
+
+	    <section>
+
+            <h2> <u> <font color="blue">Formularios Input u Output </font> </u> </h2>
+
+                <p>Ahora viene la parte de <b>formulario</b> para insertalos se pone <u> >form< </u> y luego puede ser <b>>input<</b> (viene de IN que es insertar un conjunto de datos en un sistema) luego el procesador procesa esa información que el usuario inserto en el sistema mediante un Form, luego del proceso la pagina le manda un <b>>output<</b> (viene de OUT que es mandar o sacar una información del sistema) <br> <b>Por ejemplo</b> el programador crea un formulario para e-mail y contraseña, luego el usuario pone su información y el sistema le manda una respuesta como <i>"la contraseña y correo es incorrecta" o "ha iniciado sesión con exito". <br> </i>Luego se ingresa <u>>input type="" name=""<</u> el name es para que el servidor interactue con ese input, (se ve en el backend)  </p>
+
+	                <form>
+		                <input type="text" required value="Texto">
+		                <input type="password" required>
+		                <input type="number">
+		                <input type="email" value="example@gmail.com">
+		                <input type="color">
+		                <input type="range" min="0" max="10">
+		                <input type="date">
+		                <input type="time">
+		                <textarea readonly="">No podes editarlo JAJA</textarea>
+		                <input type="button" value="Boton">
+		                <input type="submit">
+	                </form>
+
+	            <p> <b>En los formularios de (INPUT)</b> pueden ir: >form< <u>input type="text"</u> >/form< 
+
+	  	    <ul>
+
+	            <li>"text"</li>
+	            <li>"password"</li>
+	            <li>"number"</li>
+	            <li>"email"</li>
+	            <li>"color"</li>
+	            <li>"range"(el range puede ir con min y max)</li>
+	            <li>"date"</li>
+	            <li>"time"</li>
+	            <li>"button"(puede ir con un value="boton" o otro nombre)</li>
+	            <li> <u> >textarea< </u> (para escribir texto y con el atributo "readonly" solo deja al usuario leerlo)</li>
+	            <li>"submit"(boton para <b>enviar</b> los datos al servidor).</li>
+
+	        </ul> 
+
+                En cada Item se puede por el <b>Atributo</b> <u>required</u> para que el usuario complete si o si ese campo. <br> Otro <b>atributo</b> es el <u>Value</u> es para poner el valor del <b>INPUT</b> por ejemplo <u>value="example@gmail.com"</u>.
+
+                </p>
+
+                 <img src="../imagenes/formulariohtml.png" height="230px">
+
+      </section>
+
+      <section>
+
+      	<h2> <u> <font color="blue">Tablas en HTML</u> </font></h2>
+
+      	     <p>Las <u>Tablas</u> en HTML, es un cuadro dividido en celdas que están organizadas en dirección vertical y horizontal. Es una buena herramienta para organizar información o presentar cifras. <br> Se utiliza en HTML, el >table>, Luego >tr> y >td>.(Se puede poner bordes, pero conviene editarlo en CSS). </p>
+
+                 <img src="../imagenes/tablashtml.png" height="300px"> <br> <br>
+
+      	     <table border="3PX">
+      	     	<tr>
+      	     		<td><b>NOMBRE</b></td>
+      	     		<td><b>APELLIDO</b></td>
+      	     		<td><b>EDAD</b></td>
+      	     	</tr>
+      	     	<tr>
+      	     	    <td>PEPE</td>
+      	     		<td>PEPECHE</td>
+      	     		<td>490</td>
+      	     	</tr>	
+      	     	<tr>
+      	     		<td>TESECH</td>
+      	     		<td>PEPESECH</td>
+      	     		<td>343</td>
+      	     	</tr>
+
+      	     </table> 
+      	     
+      </section>
+
+      <section>
+
+         <h2> <u> <font color="blue">Metadatos y Su Significado </font> </u> </h2>
+
+	         <p>Ahora pasamos a ver los Metadatos, Hay muchos <b>Metadatos</b> todos van ubicados en el <b>>head<</b>, los que voy a ver son el:
+
+	             <ol>
+
+	                 <li> <u> >meta charset="utf-8"< </u>(Sirve para cambiar la codificación de la página, para añadir acentos, comillas, parentesis,etc).El <b>atributo </b> <u> CHARSET </u> viene de Char= Caracteres y Set=Conjunto. </li> <br> 
+
+	                 <li> <u> >meta name="keywords" content="pan,harina,leche"< </u>(Estas palabras son palabras claves que van a aparecer cuando el usuario busque en google. Por ejemplo: cuando alguien busque una receta con pan,harina y leche va a aparecer nuestra página). </li> <br>
+
+	                 <li> <u> >meta name="description" content="Página de Mateo sobre el curso de HTML/CSS/JAVASCRIPT/PHP/PHYTON/SQL Y MUCHOS MÁS"> </u> (Este sirve para describir la página tiene que ser de varios caracteres máximo 145). </li> <br>
+
+	                 <li> <u> >meta name="author" content="Mateo Robles"< </u> (Este Metadato sirve para indicar quien es el autor de la página WEB). </li> <br>
+
+	                 <li> <u> >meta name="copyright" content="JEMAF Inc."< </u> (Este sirve para indicar si tenemos una empresa con Copyright o derechos de autor). </li> <br>
+
+	                 <li> <u> >meta name="robots" content="index o noindex"< </u> (Este Metadato sirve para saber si una página esta indexada o no esta indexada, es decir si esta en el <b>índice</b> de las personas que busquen nuestra página Web) </li>	
+
+	             </ol>  
+
+	         </p>
+
+	             <img src="../imagenes/metadatosheadhtml.png" height="230px">
+
+	     </section>
+
+	     <aside>
+     	
+     	<h3> <u> <font color="green">Iconos Para la Página Web </font> </u> </h3>
+
+     	<p>Para poner iconos en la parte superior derecha de la Web hay que poner en el <u>Head</u>: <br> 
+     	  <u>  >link rel="icon" href="lezzeppelin.ico"> </u> el (rel="") Es el atributo en la que va "icon", luego continua el atributo "href" que es para poner el Enlace o Archivo.</p>
+
+     	  <img src="../imagenes/linkiconohtml.png">
+
+     </aside>
+
+     </article>
+
+<div>
+
+	<footer>
+
+		<h2>-----------------------------------------Pie De Página---------------------------------------------------</h2>
+		    <p>Seguinos en nuestras <b>redes sociales</b> </p>
+
+		    <a href="https://www.instagram.com" target="_BLANK">Instagram</a> <br>
+		    <a href="https://www.facebook.com" target="_BLANK">Facebook</a> <br>
+		    <a href="https://mail.google.com" target="_BLANK">Gmail</a> 
+
+		    <p> <b>Copyright - Todos los Derechos Reservados</b>ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤEmpresa: <u>Jemaf.Inc</u> </p>
+
+
+	</footer>
+	
+</div>
+
+</body>
+
+</html>
