@@ -1,0 +1,711 @@
+* {
+    
+    font-size: 1em;
+    font-family: Arial;
+    line-height: 2;
+    font-weight: 500;
+} 
+
+body {
+    background: radial-gradient(circle, #fff, #bbb);
+    scroll-behavior: smooth;
+}
+
+:root {
+    --color-rojo: #f43;
+}
+
+.titulo-h2 {
+    background-color:red;
+    font-size: 2em;
+    color: blue;
+    width: 50vw;
+    height: 10vh;
+    transform: rotate(5deg);
+}
+
+#element-for {
+    color:pink;
+}
+
+[rancio="sii"] {
+    background-color: aqua;
+    display: inline-block;
+    padding: 20px 10px 30px 40px;
+
+    height: 100px;
+    width: 100px;
+    box-sizing: content-box;
+    color: brown;
+}
+
+h2 u {
+    background-color: skyblue;
+    font-size: 2em;
+    box-sizing: border-box;
+    padding:20px;
+    margin: 20px 10px 30px 40px;
+    color: peru;
+    border-radius: 30px;
+    border: 5px solid greenyellow;
+    box-shadow: 30px 10px 10px 10px black;
+    text-shadow: 2px 2px 7px blue, 2px 2px 7px blue;
+
+}
+
+.h2-class b:hover {
+    color: yellowgreen;
+}
+
+#CAJAS h2{
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    margin: 5px 15px 10px 25px;
+    font-size: 2em;
+    font-family: rockwell;
+    text-align: center;     
+}
+
+.caja1 {
+    background-color: blue;
+    border: 5px solid greenyellow;
+    position: relative;
+    top: 30px;
+    left: 25px;
+    outline: 4px ridge darkred;
+}
+
+.caja2 {
+    background-color: red;
+    position: relative;
+    z-index: 100;
+}
+
+.caja3 {
+    background-color: green;
+}
+
+
+
+.container {
+    position: relative;
+    margin: 40px auto;
+    width: 500px;
+    height: 350px;
+    border: 4px dashed black;
+}
+
+[class^="box"] {
+    width: 140px;
+    height: 80px;
+    font-weight: bold;
+    line-height: 1.5;
+    text-align: center;
+    border: 4px solid grey;
+}
+
+.box-1 {
+    position: absolute;
+    background-color: red;
+    top: 0;
+    left: 0;
+}
+
+.box-2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: orange;
+}
+
+.box-3 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: yellow;
+}
+
+.box-4 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: green;
+}
+
+.box-5 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: skyblue;
+}
+
+
+
+.padre {
+    background-color: crimson;
+    position: relative;
+    height: 250px;
+    width: 250px;
+    margin: 40px;
+}
+
+.hijo {
+    background-color: orange;
+    position: relative;
+    z-index: -1;
+    height: 150px;
+    width: 150px;
+    top: -30px;
+    left: -40px;
+}
+
+
+.pseudo-clase h2{
+    height: 150px;
+    width: 150px;
+    background-color: darksalmon;
+    border: 4px ridge palevioletred;
+    margin: 50px;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.pseudo-clase:hover h2{
+    height: 250px;
+    width: 250px;
+    background-color: salmon;
+    display: inline-block;
+}
+
+.link-1:link{
+    height: 250px;
+    width: 250px;
+    background-color: skyblue;
+    color: red;
+    display: inline-block;
+}
+
+.link-2:visited{
+    color: green;
+    display: block;
+}
+
+.actived{
+    height: 150px;
+    width: 150px;
+    background-color: red;
+    margin: 25px;
+}
+
+.actived:active{
+    background: blue;
+}
+
+.langs{
+    height: 200px;
+    width: 200px;
+    background-color: grey;
+    margin: 25px;
+    display: inline-block;
+}
+
+.langs:lang(es) {
+    background: red;
+}
+
+
+.prueba{
+    padding: 20px;
+    display: block;
+}
+
+.pruebadecaja::first-letter {
+    color: blue;
+    font-size: 5em;
+}
+
+.pruebainput{
+    margin: 50px auto;
+    display: block;
+    background-color: rgb(75, 71, 71);
+    padding: 50px;
+    width: 50%;
+    text-align: center;
+} 
+
+input::placeholder {
+    color: green;
+}
+
+.pseudo{
+    margin: 50px auto;
+    display: block;
+    background-color: rgb(188, 178, 178);
+    padding: 50px;
+    width: 50%;
+    text-align: center;
+}
+
+.pseudo::after {
+    content:"PEPESECH";
+    color: rgba(28, 103, 19, 0.7);
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.pseudo::before {
+    content:"Soy";
+    color: #0000FF;
+}
+
+.contact-form__input:first-child {
+    color: red;
+}
+
+.contact-form__input--active {
+    color: orange;
+}
+
+.contact-form__input:focus {
+    background: grey;
+}
+
+.titulo-px {
+    font-size: 25px;
+}
+
+.contenedor { 
+    position: relative;
+    background: lightgray;
+    width: 500px;
+    margin: 0 auto;
+    height: 100px;
+}
+
+.caja-orange {
+    position: fixed;
+    top: 80px;
+    right: 0;
+    background: blue; 
+}
+
+.caja-sticky {
+    padding: 10px;
+    background: red;
+    position: sticky;
+    top: 10px;
+}
+
+.texto {
+    margin-top: 50px;
+    margin: auto;
+    width: 700px;
+    height: 1350px;
+    border: 4px solid blue;
+    background: grey;
+    overflow: auto;
+}
+
+.textyimg {
+    margin: auto;
+    margin-top: 50px;
+    background-color: gray;
+    border: 4px solid red;
+    border-radius: 4px;
+    width: 50%;
+}
+
+.textyimg img {
+    height: 300px;
+    float: right;
+}
+
+.textyimg h2 {
+    font-family: Arial;
+    font-size: 2em;
+    box-sizing: border-box;
+    text-shadow: 1px 2px 3px wheat;
+}
+
+.object-fit {
+    margin: 25px;
+    height: 400px;
+    width: 300px;
+}
+
+.object-fit img {
+    height: 90%;
+    width: 90%;
+    border: 4px solid red;
+    object-fit: fill;
+    object-position: 1em / 1px / 100%;
+}
+
+[class^="cajita"] {
+    width: 45%;
+    display: inline-block;
+    padding: 20px;
+    background: #ddd;
+}
+
+.cajita {
+    font-size: 24px;
+}
+
+.cajita2 {
+    background: #bbb;
+}
+
+
+
+
+.nav__responsive-ul {
+    display: none;
+}
+
+.nav {
+    background-color: darkslateblue;
+}
+
+.nav__li {
+    display: inline-block;
+    padding: 12px;
+    color: #fff;
+}
+
+.nav__li:hover > a {
+    color: #bbb;
+}
+
+.nav__li:hover {
+    color: #bbb;
+}
+
+.nav__li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav__li i {
+    width: 30px;
+    box-sizing: border-box;
+    text-align: center;
+    margin-right: 5px;
+}
+
+.nav__responsive-button-container {
+    position: absolute;
+    width: 100%; 
+    font-size: 25px;
+    background-color: #69c;
+}
+
+.nav__responsive-button {
+    padding: 6px 20px;
+}
+
+@media only screen and (max-width:565px) {
+    .nav__ul {
+        display: none;
+    }
+    
+    .nav {
+        height: 37px;
+        width: 100%;
+        background-color: #69e;
+    }
+
+    .nav__responsive-ul {
+        display: inline-block;
+        position: absolute;
+        width: 100%;
+        background-color: #7af;
+        margin-top: 37px;
+    }
+
+    .nav__responsive-li a {
+        color: #016;
+        text-decoration: none;
+    }
+}
+
+.flex-container {
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    height: 100vh;
+    align-items: center;
+}
+
+.flex-item {
+    background-color: #248;
+    color: #fff;
+    margin: 3px;
+    height: 120px;
+    min-width: 120px;
+    text-align: center;
+    flex-grow: 1;
+}
+
+.red {
+    background: red;
+    align-self: baseline;
+    flex:1 0 350px;
+}
+
+.green {
+    background: green;
+    align-self: flex-end;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-rows: repeat(auto-fill, minmax(100px, 1fr));
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 20px;
+    border: 4px solid #000;
+    background: #333;
+    grid-gap: 10px;
+    grid-auto-rows: 150px;
+    grid-auto-flow: dense;
+    
+}
+
+.grid-item {
+    border: 1px solid #000;
+    background: #999;
+}
+
+.grid-item:first-child {
+    background: #900;
+    grid-column: 1/2;
+    grid-row: 1/ span 2;
+}
+
+.grid-item:nth-child(2) {
+    background: #090;
+    grid-column: 2/4;
+}
+
+.grid-item:nth-child(8) {
+    place-self: start end;
+}
+
+.grid-item:nth-child(6) {
+    order: 3;
+}
+
+
+.galeria-container {
+    display: grid;
+    grid-template-rows: repeat(auto-fill, minmax(250px, 3fr));
+    grid-column-start: 1;
+    grid-auto-rows: 500px;
+    grid-gap: 20px;
+}
+
+.galeria-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.galeria-container img:first-child {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    
+}
+
+
+.semanti-container {
+    background-color: #444;
+    margin: 10px;
+    display: grid;
+    grid-template-areas: 
+    "header header header"
+    "aside main main"
+    "aside main main"
+    "aside main main"
+    "footer footer footer";
+    grid-template-rows: repeat(auto-fill, 1fr);
+    height: 92vh;
+    border: 3px solid black;
+
+}
+
+.grid-seman {
+    padding: 20px;
+}
+
+.grid-header {
+    background: #f96;
+    grid-area: header;
+}
+
+.grid-main {
+    background: #96f;
+    grid-area: main;
+}
+
+.grid-aside {
+    background: #888;
+    grid-area: aside;
+}
+
+.grid-footer {
+    background: #6f9;
+    grid-area: footer;
+}
+
+
+.transition-container {
+    background: rgb(10, 200, 150);
+    height: 700px;
+    margin: 30px;
+    padding: 30px;
+}
+
+.transition {
+    background: var(--color-rojo);
+    height: 40px;
+    width: 200px;
+    margin: 25px;
+    padding: 50px;
+    transition-property:background;
+    transition-duration: 1.5s;
+    transition-delay: .5s;
+}
+
+.transition:hover {
+    background: rgb(11, 39, 84);
+}
+
+.transition:first-child {
+    transition-timing-function: linear;
+}
+
+.transition:nth-child(2) {
+    transition-timing-function: ease;  
+}
+
+.transition:nth-child(3) { 
+    transition-timing-function: ease-in;  
+}
+
+.transition:nth-child(4) {
+    transition-timing-function: ease-out;  
+}
+
+.transition:nth-child(5) {
+    transition-timing-function: ease-in-out; 
+}
+
+
+
+.animation-container {
+    display: block;
+    background: #d70;
+    height: 700px;
+    margin: 50px;
+    padding: 20px;
+}
+
+.animation {
+    position: relative;
+    margin: 50px;
+    height: 150px;
+    width: 150px;
+    background-color: #df1;
+    animation-name: animaciones;
+    animation-duration: 2.5s;
+    animation-iteration-count: 6;
+    animation-direction: alternate;
+    animation-timing-function: cubic-bezier(0.4, 0.2, 0.3, 1.2);
+}
+
+@keyframes animaciones {
+    0% {
+        left: 0;
+        background-color: #6f9;
+    }
+
+    50% {
+        background-color: #090;
+    }
+
+    100% {
+        left: 80%;
+        background-color: #040;
+    }
+}
+
+
+.transform-container {
+    height: 500px;
+    background-color: #9a7;
+    margin: 40px;
+    padding: 70px;
+}
+
+.transform {
+    height: 160px;
+    width: 180px;
+    background-color: #ff2;
+    display: flex;
+    transition: transform 1s;
+    transform: translate(200px, 160px);
+}
+
+.transform:hover {
+    background-color: #91a;
+    transform: scaleX(2) translate(80px) skew(30deg);
+}
+
+.transform b {
+    margin: auto;
+    transform: skew(-30deg);
+}
+
+
+.background-container {
+    background-color: rgb(168, 229, 82);
+    height: 460px;
+    margin: 20px;
+    border: 13px solid #910 ;
+    background-image: url(https://ideasimagenes.com/wp-content/uploads/2016/07/perros-o-gatos-78868cbcda81d35ac488554829b8dc56.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-origin: padding-box;
+    background-position: left;
+    background-attachment: fixed;
+}
+
+.background-item {
+    height: 100%;
+    width: 500px;
+    margin: 50px;
+    padding: 30px;
+    background-color: #bbbbbb;
+    display: inline-block;
+    letter-spacing: 2px;
+    user-select: none;
+    direction: ltr;
+    text-decoration: underline;
+}
+
+.imgfilter-container {
+    width: 100%;
+    margin: 20px;
+    filter: brightness(1.5) contrast(1.7) blur(1px) drop-shadow(0px 0px 5px #111) grayscale(0.3) hue-rotate(25deg) invert(10%) opacity(0.9) saturate(170%);
+}
+
+.caja {
+    text-decoration: underline;
+}
